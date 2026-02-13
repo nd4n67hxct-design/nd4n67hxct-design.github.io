@@ -1,0 +1,47 @@
+body{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-image: url("img/violet3.jpeg");
+    background-size: cover;
+    height: 100vh;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.contenant{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+h1{
+    color: black;
+     text-shadow: 
+    0 0 5px #9400D3,
+    0 0 10px #9400D3,
+    0 0 20px #8A2BE2,
+    0 0 40px #8A2BE2,
+    0 0 80px #4B0082; 
+}
+.buttons{
+    display: flex;
+    gap: 25px;
+}
+button{
+    margin: 0px;
+    padding: 20px 60px;
+    border-radius: 12px;
+    background-color: darkviolet;
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+}
+span{
+    color: black;
+    font-weight: bold;
+}
